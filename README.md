@@ -50,4 +50,4 @@
   N/A
 
   ## Questions
-  If you have any questions, you can reach me at kaleb1027@gmail.com or [kaleb1027]("https://github.com/kaleb1027").
+  If you have any questions, you can reach me at kaleb1027@gmail.com or [kaleb1027 on github]("https://github.com/kaleb1027").

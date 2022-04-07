@@ -1,8 +1,9 @@
-
+//accesses packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./generateMarkdown.js');
 
+//prompted questions
 const questions = [
     {
         type: 'input',
@@ -53,7 +54,7 @@ const questions = [
 
 ];
 
-
+//creating readme file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err,data) => err ? console.log(err) : console.log(`${fileName} has been generated!`));
 }
@@ -69,5 +70,5 @@ function init() {
     
 }
 
-// Function call to initialize app
+
 init();

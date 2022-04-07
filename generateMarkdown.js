@@ -1,4 +1,4 @@
-
+//license related content
 function renderLicenseBadge(license) {
   const badges = [
     "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
@@ -135,7 +135,7 @@ function renderLicenseSection(license) {
  }
 }
 
-
+//readme format with user input
 function generateMarkdown(data) {
   return `# ${data.title}
   
@@ -152,7 +152,7 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
 
-  
+
   ## Installation 
 
   ${data.install}
@@ -176,8 +176,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  If you have any questions, you can reach me at ${data.email} or [${data.github}]("https://github.com/${data.github}").
-`;
+  If you have any questions, you can reach me at ${data.email} or ${data.github} on github`
 
 }
 

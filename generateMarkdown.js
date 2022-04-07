@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
   const badges = [
     "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
@@ -18,8 +17,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+
 function renderLicenseLink(license) {
   const links = {
     Apache: "https://www.apache.org/licenses/LICENSE-2.0",
@@ -137,11 +135,11 @@ function renderLicenseSection(license) {
  }
 }
 
-// TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
   return `# ${data.title}
   
-  ${renderLicenseBadge(data.license)}
+  
   ## Description
 
   ${data.desc}
@@ -153,29 +151,32 @@ function generateMarkdown(data) {
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+
+  
   ## Installation 
 
-    ${data.install}
+  ${data.install}
 
   ## Usage
 
-  To use this app, run the following command in terminal:
-    ${data.usage}
+  ${data.usage}
 
   ## License
-
+  ${renderLicenseBadge(data.license)}
   ${renderLicenseSection(data.license)}
+
+
+  ${renderLicenseLink(data.license)}
 
   ## Contributing
 
   ${data.contrib}
 
   ## Tests
-  To run tests, use this command in terminal:
-    ${data.tests}
+  ${data.tests}
 
   ## Questions
-  Got questions? You can reach me at ${data.email} or [${data.github}]("https://github.com/${data.github}").
+  If you have any questions, you can reach me at ${data.email} or [${data.github}]("https://github.com/${data.github}").
 `;
 
 }

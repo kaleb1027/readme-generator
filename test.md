@@ -1,9 +1,9 @@
-# test
+# TEST
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
   ## Description
 
-  test
+  TEST
 
   ## Table of Contents
   - [Installation](#installation)
@@ -12,17 +12,18 @@
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+
+  
   ## Installation 
 
-    test
+  TRY
 
   ## Usage
 
-  To use this app, run the following command in terminal:
-    test
+  TO
 
   ## License
-
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   MIT License
 
 
@@ -38,13 +39,15 @@
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
     WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+  https://opensource.org/licenses/MIT
+
   ## Contributing
 
-  test
+  TEST
 
   ## Tests
-  To run tests, use this command in terminal:
-    test
+  THIS
 
   ## Questions
-  Got questions? You can reach me at test or [test]("https://github.com/test").
+  If you have any questions, you can reach me at PLEASE or [THING]("https://github.com/THING").
